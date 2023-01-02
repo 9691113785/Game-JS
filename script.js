@@ -26,6 +26,7 @@ function maincheck(){
             document.querySelector('.message').textContent = "Guess Value is High"
             initialnumber--
             document.querySelector('.score').textContent = initialnumber
+            document.querySelector('body').style.backgroundColor = "#222"
 
 
 
@@ -35,6 +36,7 @@ function maincheck(){
             document.querySelector('.message').textContent = "Guess Value is Low"
             initialnumber--
             document.querySelector('.score').textContent = initialnumber
+            document.querySelector('body').style.backgroundColor = "#222"
         }
         else{
             document.querySelector('.message').textContent = "Hurray Your Value Matched"
